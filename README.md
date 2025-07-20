@@ -58,5 +58,25 @@ This project simulates a unified safety system specifically designed for **Elect
 - Based on **AIS 138** standards for quiet EV pedestrian alerts.
 
 ---
-## 🧠 System Architecture
-![Alt](Logic Flow Chart.png)
+## System Architecture
+![Alt](Logic_Flow_Chart.png)
+---
+### Logic Blocks Preview
+![Alt](Simulink_VehicleDynamics.png) 
+*Simulink Model- Vehicle Dynamics*
+![Alt](Simulink_AVAS.png)
+*AVAS (Acoustic Vehicle Alerting System ) Logic*
+---
+### Results 
+*Pedestrian Detection & Intent Prediction*
+![Alt](intentframe1.png)
+![Alt](intentframe2.png)
+![Alt](intentPred_2sec.png)
+
+### Testing Results 
+*MATLAB results under 2 sec sample time simulation*
+![Alt](finalvel_comparison_2sec.png)
+![Alt](avas_res_2sec.png)
+
+
+
